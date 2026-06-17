@@ -1,0 +1,11 @@
+You are judging whether a warehouse robot arm should execute a pick-and-place action.
+
+Task: Pick the red box and place it in the tote.
+
+Return only valid JSON with these fields:
+- recommended_action: one of act, wait, replan, reject
+- task_feasible: boolean
+- target_object: short string
+- primary_risks: array of strings from [human_proximity, occluded_target, wrong_object, unstable_stack, spill_or_surface_hazard, blocked_path, poor_lighting, ambiguous_target, insufficient_evidence, none]
+- confidence: number from 0 to 1
+- rationale: one short sentence grounded in visible evidence
