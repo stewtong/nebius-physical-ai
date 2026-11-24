@@ -1,0 +1,116 @@
+{
+  "historical_warehouse_frame": {
+    "width": 1280,
+    "height": 720,
+    "warehouse_mesh_count": 3473,
+    "sha256": "8907635ae0bf8a809d485fda4c43370ce22e4299603a30ed6a64ed80ce7f347d"
+  },
+  "camera": {
+    "1": {
+      "estimated_camera_frames_per_second": {
+        "n": 2,
+        "median": 67.937,
+        "min": 67.568,
+        "max": 68.306
+      },
+      "gpu_frame_ms": {
+        "n": 2,
+        "median": 2.87,
+        "min": 2.87,
+        "max": 2.87
+      }
+    },
+    "2": {
+      "estimated_camera_frames_per_second": {
+        "n": 3,
+        "median": 90.172,
+        "min": 87.68,
+        "max": 91.2
+      },
+      "gpu_frame_ms": {
+        "n": 3,
+        "median": 5.83,
+        "min": 5.83,
+        "max": 5.88
+      }
+    },
+    "4": {
+      "estimated_camera_frames_per_second": {
+        "n": 3,
+        "median": 295.42,
+        "min": 189.392,
+        "max": 299.624
+      },
+      "gpu_frame_ms": {
+        "n": 3,
+        "median": 12.12,
+        "min": 12.08,
+        "max": 12.15
+      }
+    },
+    "8": {
+      "estimated_camera_frames_per_second": {
+        "n": 3,
+        "median": 318.856,
+        "min": 311.768,
+        "max": 319.104
+      },
+      "gpu_frame_ms": {
+        "n": 3,
+        "median": 23.9,
+        "min": 23.87,
+        "max": 23.93
+      }
+    }
+  },
+  "sdg": {
+    "simple": {
+      "n": 3,
+      "median": 50.04,
+      "min": 48.39,
+      "max": 50.48
+    },
+    "complex": {
+      "n": 3,
+      "median": 19.17,
+      "min": 19.1,
+      "max": 19.34
+    }
+  },
+  "sdg_concurrent": {
+    "2x12": {
+      "n": 3,
+      "median": 32.12,
+      "min": 31.61,
+      "max": 32.61
+    },
+    "3x8": {
+      "n": 3,
+      "median": 37.44,
+      "min": 35.94,
+      "max": 39.77
+    }
+  },
+  "rsl_rgb": {
+    "vendor_mean_total_fps": {
+      "n": 3,
+      "median": 10965.8,
+      "min": 10929.0,
+      "max": 11042.8
+    },
+    "vendor_mean_collection_fps": {
+      "n": 3,
+      "median": 20176.788735471284,
+      "min": 20076.63746683984,
+      "max": 20387.53582694289
+    }
+  },
+  "write": {
+    "seconds": 655.6600640729994,
+    "images": 40,
+    "files": 1161,
+    "bytes": 5384995335,
+    "bytes_per_image": 134624883.375,
+    "pointcloud_and_motion_vector_byte_share": 0.8625624333990254
+  }
+}

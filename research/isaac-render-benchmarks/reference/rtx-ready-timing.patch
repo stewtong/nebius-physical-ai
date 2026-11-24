@@ -1,0 +1,14 @@
+--- a/scripts/stage-camera.py
++++ b/scripts/stage-camera.py
+@@ -33 +33,10 @@
+-    print(json.dumps({"warehouse_mesh_count": meshes, "stage_loaded": True, "stage": str(path)}), flush=True)
++    # Alternate-initialization-only: ensure RTX Hydra engine is live and set as default before
++    # the measured phase reads frame data. Same single-engine wait proven for capture; no change
++    # to vendor camera, pose, warmup, loop, or metrics.
++    import time
++    context_deadline = time.monotonic() + 1200
++    while list(context.get_attached_hydra_engine_names()) != ["rtx"]:
++        app.update()
++        if time.monotonic() > context_deadline:
++            raise TimeoutError("RTX engine not attached for benchmark stage")
++    print(json.dumps({"warehouse_mesh_count": meshes, "stage_loaded": True, "stage": str(path), "rtx_engine": list(context.get_attached_hydra_engine_names())}), flush=True)
