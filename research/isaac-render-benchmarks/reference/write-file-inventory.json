@@ -1,0 +1,87 @@
+{
+  "rgb_images": 40,
+  "files_total": 1161,
+  "bytes_total": 5384995335,
+  "annotators": {
+    "bounding_box_2d_loose": {
+      "n_files": 120,
+      "total_bytes": 923895,
+      "bytes_per_camera_image": 23097.375
+    },
+    "bounding_box_2d_tight": {
+      "n_files": 120,
+      "total_bytes": 87178,
+      "bytes_per_camera_image": 2179.45
+    },
+    "bounding_box_3d": {
+      "n_files": 120,
+      "total_bytes": 2392912,
+      "bytes_per_camera_image": 59822.8
+    },
+    "camera_params": {
+      "n_files": 40,
+      "total_bytes": 42077,
+      "bytes_per_camera_image": 1051.925
+    },
+    "distance_to_camera": {
+      "n_files": 40,
+      "total_bytes": 331781120,
+      "bytes_per_camera_image": 8294528.0
+    },
+    "distance_to_image_plane": {
+      "n_files": 40,
+      "total_bytes": 331781120,
+      "bytes_per_camera_image": 8294528.0
+    },
+    "instance_id_segmentation": {
+      "n_files": 80,
+      "total_bytes": 13311413,
+      "bytes_per_camera_image": 332785.325
+    },
+    "instance_segmentation": {
+      "n_files": 120,
+      "total_bytes": 2509130,
+      "bytes_per_camera_image": 62728.25
+    },
+    "metadata": {
+      "n_files": 1,
+      "total_bytes": 74,
+      "bytes_per_camera_image": 1.85
+    },
+    "motion_vectors": {
+      "n_files": 40,
+      "total_bytes": 1327109120,
+      "bytes_per_camera_image": 33177728.0
+    },
+    "normals": {
+      "n_files": 40,
+      "total_bytes": 8147222,
+      "bytes_per_camera_image": 203680.55
+    },
+    "occlusion": {
+      "n_files": 40,
+      "total_bytes": 1917120,
+      "bytes_per_camera_image": 47928.0
+    },
+    "pointcloud": {
+      "n_files": 200,
+      "total_bytes": 3317785560,
+      "bytes_per_camera_image": 82944639.0
+    },
+    "rgb": {
+      "n_files": 40,
+      "total_bytes": 45188881,
+      "bytes_per_camera_image": 1129722.025
+    },
+    "semantic_segmentation": {
+      "n_files": 80,
+      "total_bytes": 2018433,
+      "bytes_per_camera_image": 50460.825
+    },
+    "skeleton_data": {
+      "n_files": 40,
+      "total_bytes": 80,
+      "bytes_per_camera_image": 2.0
+    }
+  }
+}

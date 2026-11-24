@@ -1,0 +1,1269 @@
+{
+  "clean_container_capture": {
+    "run_id": "clean-container-capture-1",
+    "status": "failed",
+    "command": "ACCEPT_EULA=Y bash scripts/run-repro.sh capture capture-run",
+    "docker_image_id": "sha256:2d4ebfef053f740b634e30723e38ed736255f677553425ef35552437d74c3b21",
+    "container_exit": 1,
+    "png_count": 0,
+    "timed_trials_run": false,
+    "console_message": "Timed out while waiting for pending Replicator writer schedules to drain.",
+    "previous_launcher_sha256": "bd57603d2f30d92ac2614f87dd5da7fffc10c226c34bbef1e3ec588b5e837b8f",
+    "previous_capture_helper_sha256": "712a4f9b34b67d81641b4a5a2f37d22df815233187177797d6e27815a23278b8",
+    "used_revised_launcher": false
+  },
+  "observations": [
+    {
+      "run_id": "cam1-r2",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_camera benchmark Mean GPU Frametime": {
+          "value": 2.87,
+          "unit": "ms"
+        },
+        "benchmark_camera benchmark Mean FPS": {
+          "value": 68.306,
+          "unit": "FPS"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "1",
+          "--resolution",
+          "1280",
+          "720",
+          "--num-frames",
+          "200",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics"
+        ],
+        "exit": 0,
+        "scene_attachment": {
+          "usd_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+          "ok": true,
+          "mesh_count": 3473,
+          "ok_stage_attached": true
+        },
+        "gpu_timing_samples": 199
+      }
+    },
+    {
+      "run_id": "cam1-r3",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_camera benchmark Mean FPS": {
+          "value": 67.568,
+          "unit": "FPS"
+        },
+        "benchmark_camera benchmark Mean GPU Frametime": {
+          "value": 2.87,
+          "unit": "ms"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "1",
+          "--resolution",
+          "1280",
+          "720",
+          "--num-frames",
+          "200",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics"
+        ],
+        "exit": 0,
+        "scene_attachment": {
+          "usd_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+          "ok": true,
+          "mesh_count": 3473,
+          "ok_stage_attached": true
+        },
+        "gpu_timing_samples": 199
+      }
+    },
+    {
+      "run_id": "cam2-r1",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_camera benchmark Mean GPU Frametime": {
+          "value": 5.83,
+          "unit": "ms"
+        },
+        "benchmark_camera benchmark Mean FPS": {
+          "value": 45.086,
+          "unit": "FPS"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "2",
+          "--resolution",
+          "1280",
+          "720",
+          "--num-frames",
+          "200",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics"
+        ],
+        "exit": 0,
+        "scene_attachment": {
+          "usd_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+          "ok": true,
+          "mesh_count": 3473,
+          "ok_stage_attached": true
+        },
+        "gpu_timing_samples": 199
+      }
+    },
+    {
+      "run_id": "cam2-r2",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_camera benchmark Mean GPU Frametime": {
+          "value": 5.88,
+          "unit": "ms"
+        },
+        "benchmark_camera benchmark Mean FPS": {
+          "value": 45.6,
+          "unit": "FPS"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "2",
+          "--resolution",
+          "1280",
+          "720",
+          "--num-frames",
+          "200",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics"
+        ],
+        "exit": 0,
+        "scene_attachment": {
+          "usd_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+          "ok": true,
+          "mesh_count": 3473,
+          "ok_stage_attached": true
+        },
+        "gpu_timing_samples": 199
+      }
+    },
+    {
+      "run_id": "cam2-r3",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_camera benchmark Mean GPU Frametime": {
+          "value": 5.83,
+          "unit": "ms"
+        },
+        "benchmark_camera benchmark Mean FPS": {
+          "value": 43.84,
+          "unit": "FPS"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "2",
+          "--resolution",
+          "1280",
+          "720",
+          "--num-frames",
+          "200",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics"
+        ],
+        "exit": 0,
+        "scene_attachment": {
+          "usd_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+          "ok": true,
+          "mesh_count": 3473,
+          "ok_stage_attached": true
+        },
+        "gpu_timing_samples": 199
+      }
+    },
+    {
+      "run_id": "cam4-r1",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_camera benchmark Mean GPU Frametime": {
+          "value": 12.15,
+          "unit": "ms"
+        },
+        "benchmark_camera benchmark Mean FPS": {
+          "value": 47.348,
+          "unit": "FPS"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "4",
+          "--resolution",
+          "1280",
+          "720",
+          "--num-frames",
+          "200",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics"
+        ],
+        "exit": 0,
+        "scene_attachment": {
+          "usd_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+          "ok": true,
+          "mesh_count": 3473,
+          "ok_stage_attached": true
+        },
+        "gpu_timing_samples": 199
+      }
+    },
+    {
+      "run_id": "cam4-r2",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_camera benchmark Mean FPS": {
+          "value": 74.906,
+          "unit": "FPS"
+        },
+        "benchmark_camera benchmark Mean GPU Frametime": {
+          "value": 12.08,
+          "unit": "ms"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "4",
+          "--resolution",
+          "1280",
+          "720",
+          "--num-frames",
+          "200",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics"
+        ],
+        "exit": 0,
+        "scene_attachment": {
+          "usd_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+          "ok": true,
+          "mesh_count": 3473,
+          "ok_stage_attached": true
+        },
+        "gpu_timing_samples": 199
+      }
+    },
+    {
+      "run_id": "cam4-r3",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_camera benchmark Mean FPS": {
+          "value": 73.855,
+          "unit": "FPS"
+        },
+        "benchmark_camera benchmark Mean GPU Frametime": {
+          "value": 12.12,
+          "unit": "ms"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "4",
+          "--resolution",
+          "1280",
+          "720",
+          "--num-frames",
+          "200",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics"
+        ],
+        "exit": 0,
+        "scene_attachment": {
+          "usd_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+          "ok": true,
+          "mesh_count": 3473,
+          "ok_stage_attached": true
+        },
+        "gpu_timing_samples": 199
+      }
+    },
+    {
+      "run_id": "cam8-r1",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_camera benchmark Mean GPU Frametime": {
+          "value": 23.9,
+          "unit": "ms"
+        },
+        "benchmark_camera benchmark Mean FPS": {
+          "value": 38.971,
+          "unit": "FPS"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "8",
+          "--resolution",
+          "1280",
+          "720",
+          "--num-frames",
+          "200",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics"
+        ],
+        "exit": 0,
+        "scene_attachment": {
+          "usd_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+          "ok": true,
+          "mesh_count": 3473,
+          "ok_stage_attached": true
+        },
+        "gpu_timing_samples": 199
+      }
+    },
+    {
+      "run_id": "cam8-r2",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_camera benchmark Mean FPS": {
+          "value": 39.857,
+          "unit": "FPS"
+        },
+        "benchmark_camera benchmark Mean GPU Frametime": {
+          "value": 23.93,
+          "unit": "ms"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "8",
+          "--resolution",
+          "1280",
+          "720",
+          "--num-frames",
+          "200",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics"
+        ],
+        "exit": 0,
+        "scene_attachment": {
+          "usd_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+          "ok": true,
+          "mesh_count": 3473,
+          "ok_stage_attached": true
+        },
+        "gpu_timing_samples": 199
+      }
+    },
+    {
+      "run_id": "cam8-r3",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_camera benchmark Mean FPS": {
+          "value": 39.888,
+          "unit": "FPS"
+        },
+        "benchmark_camera benchmark Mean GPU Frametime": {
+          "value": 23.87,
+          "unit": "ms"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "8",
+          "--resolution",
+          "1280",
+          "720",
+          "--num-frames",
+          "200",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics"
+        ],
+        "exit": 0,
+        "scene_attachment": {
+          "usd_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+          "ok": true,
+          "mesh_count": 3473,
+          "ok_stage_attached": true
+        },
+        "gpu_timing_samples": 199
+      }
+    },
+    {
+      "run_id": "sdg-complex-r1",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_sdg benchmark Mean GPU Frametime": {
+          "value": 17.61,
+          "unit": "ms"
+        },
+        "benchmark_sdg benchmark Mean FPS": {
+          "value": 9.67,
+          "unit": "FPS"
+        },
+        "benchmark_sdg benchmark Replicator Images/s": {
+          "value": 19.34,
+          "unit": "img/s"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "2",
+          "--resolution",
+          "1280",
+          "720",
+          "--asset-count",
+          "100",
+          "--skip-write",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics",
+          "--num-frames",
+          "200",
+          "--annotators",
+          "all"
+        ],
+        "exit": 0
+      }
+    },
+    {
+      "run_id": "sdg-complex-r2",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_sdg benchmark Mean GPU Frametime": {
+          "value": 17.65,
+          "unit": "ms"
+        },
+        "benchmark_sdg benchmark Mean FPS": {
+          "value": 9.55,
+          "unit": "FPS"
+        },
+        "benchmark_sdg benchmark Replicator Images/s": {
+          "value": 19.1,
+          "unit": "img/s"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "2",
+          "--resolution",
+          "1280",
+          "720",
+          "--asset-count",
+          "100",
+          "--skip-write",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics",
+          "--num-frames",
+          "200",
+          "--annotators",
+          "all"
+        ],
+        "exit": 0
+      }
+    },
+    {
+      "run_id": "sdg-complex-r3",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_sdg benchmark Mean FPS": {
+          "value": 9.59,
+          "unit": "FPS"
+        },
+        "benchmark_sdg benchmark Replicator Images/s": {
+          "value": 19.17,
+          "unit": "img/s"
+        },
+        "benchmark_sdg benchmark Mean GPU Frametime": {
+          "value": 17.39,
+          "unit": "ms"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "2",
+          "--resolution",
+          "1280",
+          "720",
+          "--asset-count",
+          "100",
+          "--skip-write",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics",
+          "--num-frames",
+          "200",
+          "--annotators",
+          "all"
+        ],
+        "exit": 0
+      }
+    },
+    {
+      "run_id": "sdg-pt-r2",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_sdg benchmark Mean FPS": {
+          "value": 15.48,
+          "unit": "FPS"
+        },
+        "benchmark_sdg benchmark Replicator Images/s": {
+          "value": 30.96,
+          "unit": "img/s"
+        },
+        "benchmark_sdg benchmark Mean GPU Frametime": {
+          "value": 19.33,
+          "unit": "ms"
+        }
+      }
+    },
+    {
+      "run_id": "sdg-simple-r1",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_sdg benchmark Mean FPS": {
+          "value": 24.19,
+          "unit": "FPS"
+        },
+        "benchmark_sdg benchmark Replicator Images/s": {
+          "value": 48.39,
+          "unit": "img/s"
+        },
+        "benchmark_sdg benchmark Mean GPU Frametime": {
+          "value": 12.43,
+          "unit": "ms"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "2",
+          "--resolution",
+          "1280",
+          "720",
+          "--asset-count",
+          "100",
+          "--skip-write",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics",
+          "--num-frames",
+          "300",
+          "--annotators",
+          "rgb",
+          "distance_to_image_plane"
+        ],
+        "exit": 0
+      }
+    },
+    {
+      "run_id": "sdg-simple-r2",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_sdg benchmark Mean GPU Frametime": {
+          "value": 12.53,
+          "unit": "ms"
+        },
+        "benchmark_sdg benchmark Mean FPS": {
+          "value": 25.02,
+          "unit": "FPS"
+        },
+        "benchmark_sdg benchmark Replicator Images/s": {
+          "value": 50.04,
+          "unit": "img/s"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "2",
+          "--resolution",
+          "1280",
+          "720",
+          "--asset-count",
+          "100",
+          "--skip-write",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics",
+          "--num-frames",
+          "300",
+          "--annotators",
+          "rgb",
+          "distance_to_image_plane"
+        ],
+        "exit": 0
+      }
+    },
+    {
+      "run_id": "sdg-simple-r3",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_sdg benchmark Mean GPU Frametime": {
+          "value": 12.39,
+          "unit": "ms"
+        },
+        "benchmark_sdg benchmark Mean FPS": {
+          "value": 25.24,
+          "unit": "FPS"
+        },
+        "benchmark_sdg benchmark Replicator Images/s": {
+          "value": 50.48,
+          "unit": "img/s"
+        }
+      },
+      "evidence": {
+        "vendor_args": [
+          "--num-cameras",
+          "2",
+          "--resolution",
+          "1280",
+          "720",
+          "--asset-count",
+          "100",
+          "--skip-write",
+          "--gpu-frametime",
+          "--backend-type",
+          "JSONFileMetrics",
+          "--num-frames",
+          "300",
+          "--annotators",
+          "rgb",
+          "distance_to_image_plane"
+        ],
+        "exit": 0
+      }
+    },
+    {
+      "run_id": "lab-depth-r1",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_non_rl runtime Mean Environment step effective FPS": {
+          "value": 31994.475746939836,
+          "unit": "FPS"
+        }
+      }
+    },
+    {
+      "run_id": "lab-depth-r2",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_non_rl runtime Mean Environment step effective FPS": {
+          "value": 32378.967569910783,
+          "unit": "FPS"
+        }
+      }
+    },
+    {
+      "run_id": "lab-depth-r3",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_non_rl runtime Mean Environment step effective FPS": {
+          "value": 32390.304052989508,
+          "unit": "FPS"
+        }
+      }
+    },
+    {
+      "run_id": "lab-rgb-r3",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_non_rl runtime Mean Environment step effective FPS": {
+          "value": 22637.230790673395,
+          "unit": "FPS"
+        }
+      }
+    },
+    {
+      "run_id": "lab-rgb-r4",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_non_rl runtime Mean Environment step effective FPS": {
+          "value": 23130.335242353278,
+          "unit": "FPS"
+        }
+      }
+    },
+    {
+      "run_id": "lab-rgb-r5",
+      "status": "accepted",
+      "metrics": {
+        "benchmark_non_rl runtime Mean Environment step effective FPS": {
+          "value": 22906.921552102616,
+          "unit": "FPS"
+        }
+      }
+    },
+    {
+      "run_id": "sdg-2x12-r1",
+      "status": "accepted",
+      "topology": "2x12",
+      "repeat": 1,
+      "cpu_sets": [
+        "0-11",
+        "12-23"
+      ],
+      "worker_images_per_second": [
+        16.11,
+        16.01
+      ],
+      "sum_worker_means_images_per_second": 32.12,
+      "all_worker_overlap_seconds": 19.0,
+      "window_basis": "Approximate vendor phase timestamps from the prior run",
+      "worker_exit_codes": [
+        0,
+        0
+      ],
+      "overlap_evidence": "estimated_vendor_phase_timestamps"
+    },
+    {
+      "run_id": "sdg-2x12-r2",
+      "status": "accepted",
+      "topology": "2x12",
+      "repeat": 2,
+      "cpu_sets": [
+        "0-11",
+        "12-23"
+      ],
+      "worker_images_per_second": [
+        15.87,
+        15.74
+      ],
+      "sum_worker_means_images_per_second": 31.61,
+      "all_worker_overlap_seconds": 26.81265,
+      "window_basis": "Measured capture loop after the pre-timing rendezvous",
+      "worker_exit_codes": [
+        0,
+        0
+      ],
+      "overlap_evidence": "measured_common_capture_interval"
+    },
+    {
+      "run_id": "sdg-2x12-r3",
+      "status": "accepted",
+      "topology": "2x12",
+      "repeat": 3,
+      "cpu_sets": [
+        "0-11",
+        "12-23"
+      ],
+      "worker_images_per_second": [
+        16.68,
+        15.93
+      ],
+      "sum_worker_means_images_per_second": 32.61,
+      "all_worker_overlap_seconds": 25.25658,
+      "window_basis": "Measured capture loop after the pre-timing rendezvous",
+      "worker_exit_codes": [
+        0,
+        0
+      ],
+      "overlap_evidence": "measured_common_capture_interval"
+    },
+    {
+      "run_id": "sdg-3x8-r1",
+      "status": "accepted",
+      "topology": "3x8",
+      "repeat": 1,
+      "cpu_sets": [
+        "0-7",
+        "8-15",
+        "16-23"
+      ],
+      "worker_images_per_second": [
+        12.65,
+        12.09,
+        12.7
+      ],
+      "sum_worker_means_images_per_second": 37.44,
+      "all_worker_overlap_seconds": 32.75302,
+      "window_basis": "Measured capture loop after the pre-timing rendezvous",
+      "worker_exit_codes": [
+        0,
+        0,
+        0
+      ],
+      "overlap_evidence": "measured_common_capture_interval"
+    },
+    {
+      "run_id": "sdg-3x8-r2",
+      "status": "accepted",
+      "topology": "3x8",
+      "repeat": 2,
+      "cpu_sets": [
+        "0-7",
+        "8-15",
+        "16-23"
+      ],
+      "worker_images_per_second": [
+        11.89,
+        12.06,
+        11.99
+      ],
+      "sum_worker_means_images_per_second": 35.94,
+      "all_worker_overlap_seconds": 34.355542,
+      "window_basis": "Measured capture loop after the pre-timing rendezvous",
+      "worker_exit_codes": [
+        0,
+        0,
+        0
+      ],
+      "overlap_evidence": "measured_common_capture_interval"
+    },
+    {
+      "run_id": "sdg-3x8-r3",
+      "status": "accepted",
+      "topology": "3x8",
+      "repeat": 3,
+      "cpu_sets": [
+        "0-7",
+        "8-15",
+        "16-23"
+      ],
+      "worker_images_per_second": [
+        12.92,
+        13.45,
+        13.4
+      ],
+      "sum_worker_means_images_per_second": 39.77,
+      "all_worker_overlap_seconds": 31.232411,
+      "window_basis": "Measured capture loop after the pre-timing rendezvous",
+      "worker_exit_codes": [
+        0,
+        0,
+        0
+      ],
+      "overlap_evidence": "measured_common_capture_interval"
+    },
+    {
+      "run_id": "rsl-rgb-r1",
+      "status": "accepted",
+      "repeat": 1,
+      "mean_total_fps": 10929.0,
+      "mean_collection_fps": 20076.63746683984,
+      "completed_iterations": 10,
+      "vendor_metric_sha256": "5cf1cbf70e2d95fec2ce3e922bce5b4b160cc44458c5315bbb193fdab3480dc3",
+      "exit": 0
+    },
+    {
+      "run_id": "rsl-rgb-r2",
+      "status": "accepted",
+      "repeat": 2,
+      "mean_total_fps": 10965.8,
+      "mean_collection_fps": 20176.788735471284,
+      "completed_iterations": 10,
+      "vendor_metric_sha256": "cc98c1c213567b431dfc35fcb137bab492d1415e042ed3a1994ccfcbda88a824",
+      "exit": 0
+    },
+    {
+      "run_id": "rsl-rgb-r3",
+      "status": "accepted",
+      "repeat": 3,
+      "mean_total_fps": 11042.8,
+      "mean_collection_fps": 20387.53582694289,
+      "completed_iterations": 10,
+      "vendor_metric_sha256": "ce4077460b1140077e6c138de13bdc40a2206743a754064785b8f5bdc3d736b7",
+      "exit": 0
+    },
+    {
+      "run_id": "historical-stock-cam1",
+      "status": "excluded",
+      "reason": "zero vendor GPU frame time",
+      "frames_requested": 120,
+      "app_updates_per_second": 57.11,
+      "gpu_frame_ms": 0.0,
+      "historical_cli_arguments": [
+        "--num-cameras",
+        "1",
+        "--resolution",
+        "1280",
+        "720",
+        "--num-frames",
+        "120",
+        "--gpu-frametime",
+        "--print-results"
+      ],
+      "metric_source": "Vendor console summary"
+    },
+    {
+      "run_id": "historical-cam1-r4",
+      "status": "excluded",
+      "reason": "unknown wrapper exit",
+      "app_updates_per_second": 50.025,
+      "gpu_frame_ms": 2.89
+    },
+    {
+      "run_id": "historical-headless-cam1-r5",
+      "status": "excluded",
+      "reason": "zero vendor GPU frame time with the default Hydra engine absent",
+      "frames_requested": 200,
+      "gpu_frame_ms": 0.0
+    },
+    {
+      "run_id": "historical-headless-cam1-r6",
+      "status": "excluded",
+      "reason": "zero vendor GPU frame time with the default Hydra engine absent",
+      "frames_requested": 200,
+      "gpu_frame_ms": 0.0
+    },
+    {
+      "run_id": "historical-headless-cam1-r7",
+      "status": "excluded",
+      "reason": "zero vendor GPU frame time with the default Hydra engine absent",
+      "frames_requested": 200,
+      "gpu_frame_ms": 0.0
+    }
+  ],
+  "rsl_rgb_configuration": {
+    "task": "Isaac-Cartpole-RGB-Camera-Direct-v0",
+    "num_envs": 1024,
+    "iterations": 10,
+    "seed": 42,
+    "rsl_rl_lib_version": "5.0.1",
+    "observation_shape_per_env": [
+      100,
+      100,
+      3
+    ],
+    "policy_observation_shape_per_env": [
+      3,
+      100,
+      100
+    ],
+    "vendor_training_metric": "benchmark_rsl_rl_train runtime Mean Total FPS",
+    "vendor_collection_metric": "benchmark_rsl_rl_train runtime Mean Collection FPS",
+    "image": "nvcr.io/nvidia/isaac-lab@sha256:ae9c938a16df856effad6dab92115ee0dce2a8813f56847eeeccbebc008d02c4",
+    "label": "3.0.0-beta2-post1",
+    "adapter_source_included": false,
+    "adapter_source_sha256": {
+      "rsl_rgb_adapter.py": "2c3fad53becf6595e49f6891b0d9fd4241473f811adbd64d0d0aacb1783f2822",
+      "rsl_rgb_model.py": "75c745485c6cdb672b59c5a388376eaf7a1d0c2935eeb23667b7541fff3612fb",
+      "rsl_cfg.py": "b8eec9a753eebb1d5283017c1e16c215abe538144c2b9bcaad617abf6bc54bd3"
+    }
+  },
+  "historical_capture": {
+    "run_id": "historical-warehouse-frame",
+    "capture_receipt": {
+      "image_id": "sha256:2d4ebfef053f740b634e30723e38ed736255f677553425ef35552437d74c3b21",
+      "sim_version": "6.0.1",
+      "stage_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+      "stage_loaded": true,
+      "warehouse_mesh_count": 3473,
+      "camera_path": "/World/S0Cam_warehouse",
+      "render_product": "/RenderProduct_S0RP_warehouse",
+      "render_device": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+      "render_mode": "RealTimePathTracing",
+      "capture_completed": true,
+      "frame_sha256": "8907635ae0bf8a809d485fda4c43370ce22e4299603a30ed6a64ed80ce7f347d",
+      "capture_started_utc": "2026-11-23T22:27:39.072648+00:00",
+      "capture_completed_utc": "2026-11-23T22:27:39.269415+00:00"
+    },
+    "verification": {
+      "status": "verified",
+      "width": 1280,
+      "height": 720,
+      "sampled_distinct_rgb": 6068,
+      "verified_utc": "2026-11-23T22:33:51.918520+00:00"
+    },
+    "method": "Usd.Stage.Open(load=Usd.Stage.LoadAll)+attach_stage_async",
+    "original_capture_receipt_sha256": "18693f39e30b41544acaa7793d66ecab14ec14ebbb9d7e87028a2d50a6d8fc54",
+    "image_included": false
+  },
+  "additional_capture_probe": {
+    "run_id": "clean-container-attach-all",
+    "status": "stopped",
+    "method": "Add an RTX engine and attach all Hydra engines when the attached list is empty",
+    "observed_diagnostics": [
+      "Multiple Hydra Engines detected",
+      "RTX command-list semaphore wait error"
+    ],
+    "container_exit_after_stop": 137,
+    "png_count": 0
+  },
+  "table_cohorts": {
+    "camera_by_count": {
+      "1": [
+        "cam1-r2",
+        "cam1-r3"
+      ],
+      "2": [
+        "cam2-r1",
+        "cam2-r2",
+        "cam2-r3"
+      ],
+      "4": [
+        "cam4-r1",
+        "cam4-r2",
+        "cam4-r3"
+      ],
+      "8": [
+        "cam8-r1",
+        "cam8-r2",
+        "cam8-r3"
+      ]
+    },
+    "single_worker_sdg": {
+      "rgb_depth": [
+        "sdg-simple-r1",
+        "sdg-simple-r2",
+        "sdg-simple-r3"
+      ],
+      "all_annotators": [
+        "sdg-complex-r1",
+        "sdg-complex-r2",
+        "sdg-complex-r3"
+      ]
+    },
+    "concurrent_sdg_by_topology": {
+      "2x12": [
+        "sdg-2x12-r1",
+        "sdg-2x12-r2",
+        "sdg-2x12-r3"
+      ],
+      "3x8": [
+        "sdg-3x8-r1",
+        "sdg-3x8-r2",
+        "sdg-3x8-r3"
+      ]
+    },
+    "rgb_rsl_rl": [
+      "rsl-rgb-r1",
+      "rsl-rgb-r2",
+      "rsl-rgb-r3"
+    ]
+  },
+  "concurrent_sdg_configuration": {
+    "cameras_per_worker": 2,
+    "resolution": [
+      1280,
+      720
+    ],
+    "frames_requested": 200,
+    "assets_requested": 100,
+    "annotations": "all",
+    "disk_writes_enabled": false
+  },
+  "historical_write_run": {
+    "run_id": "historical-warehouse-write",
+    "vendor_argv": [
+      "/isaac-sim/standalone_examples/benchmarks/benchmark_sdg.py",
+      "--num-frames",
+      "1000000",
+      "--num-cameras",
+      "4",
+      "--resolution",
+      "1920",
+      "1080",
+      "--asset-count",
+      "100",
+      "--env-url",
+      "/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+      "--annotators",
+      "all",
+      "--gpu-frametime",
+      "--backend-type",
+      "JSONFileMetrics",
+      "--wait-for-render"
+    ],
+    "measured_wrapper_sha256": "6c7a44d4991b75cc55dc23d700c9694b80b552b070e7a32ab1c1070467ef7069",
+    "window": {
+      "requested_window_s": 600.0,
+      "monotonic_elapsed_s": 655.6600640729994,
+      "frames_in_window": 10
+    },
+    "scene_attachment": {
+      "env_path": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+      "attach_ok": true,
+      "mesh_count": 3473
+    },
+    "inventory_path": "write-file-inventory.json"
+  },
+  "revised_live_validation": {
+    "launcher_sha256": "ce2283645b80e9950c4c70caacbd8a8d6b6d9907818b280aa0e151b25a06835d",
+    "capture_helper_sha256": "34ab34c97c88c6692eaae2631fd634be13ff002f7bd96e69686433c33d92a209",
+    "docker_image_id": "sha256:2d4ebfef053f740b634e30723e38ed736255f677553425ef35552437d74c3b21",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "driver": "580.173.02",
+    "stock": {
+      "run_id": "revised-stock-camera-120",
+      "frames_requested": 120,
+      "loop_fps": 60.533,
+      "gpu_ms": 0.0,
+      "gpu_sample_count": 119,
+      "diagnostic_only": true,
+      "command": [
+        "/isaac-sim/python.sh",
+        "/isaac-sim/standalone_examples/benchmarks/benchmark_camera.py",
+        "--num-cameras",
+        "1",
+        "--resolution",
+        "1280",
+        "720",
+        "--num-frames",
+        "120",
+        "--gpu-frametime",
+        "--backend-type",
+        "JSONFileMetrics"
+      ],
+      "launcher_exit": 0,
+      "vendor_exit": 0,
+      "status": "zero_gpu_time_diagnostic",
+      "raw_vendor_metrics_sha256": "63e100e1025b95cf4f5b55a0209bb08582525045c8772322215a9ed4563bdee4"
+    },
+    "capture": {
+      "run_id": "revised-warehouse-capture-720p",
+      "launcher_exit": 1,
+      "png_count": 0,
+      "frame_verified": false,
+      "started_utc": "2026-11-24T17:07:08Z",
+      "finished_utc": "2026-11-24T17:09:20Z",
+      "observations": [
+        "Replicator writer drain timed out",
+        "Expected one warehouse PNG, found 0",
+        "Segmentation fault during Kit teardown"
+      ]
+    },
+    "patched_30": {
+      "status": "skipped",
+      "reason": "No verified 720p warehouse PNG"
+    },
+    "matched_200": {
+      "status": "skipped",
+      "reason": "Patched 30-frame diagnostic prerequisite did not pass"
+    }
+  },
+  "basicwriter_recovery": {
+    "verified_capture_helper_sha256": "35424925d37573c0c8d56bc5fee22f8ce5ce92489478cdf1cd240ac54a0a0c25",
+    "verified_launcher_sha256": "ce2283645b80e9950c4c70caacbd8a8d6b6d9907818b280aa0e151b25a06835d",
+    "driver": "580.173.02",
+    "isaac_sim": "6.0.1",
+    "runs": [
+      {
+        "configuration": "wait_for_rtx_slow_shutdown",
+        "launcher_exit": 1,
+        "console_sha256": "8c3bc7b03556ca885a09c9a8f98aabc9aceddeef6b64b23de351d50393b74a1b",
+        "writer_drain_warnings": 0,
+        "launcher_verified_frame": false,
+        "frame_sha256": "6036d8ab5e03d34706f462a04540bbc66cf38ce5ef039cafb20c66c9b36026f5",
+        "capture_receipt_sha256": "fb00be50c9f31d77d64321f3886f85918b0a3aaee1b924b06bbb7f713c9929b1",
+        "capture_completed_utc": "2026-11-24T17:44:06.101908+00:00",
+        "warehouse_mesh_count": 3473,
+        "width": 1280,
+        "height": 720,
+        "writer": "BasicWriter"
+      },
+      {
+        "configuration": "wait_for_rtx_fast_shutdown",
+        "launcher_exit": 1,
+        "console_sha256": "8ba86463391d6976abd3f36ca6c15f722b0ba4ad70fec3c4f8b958f9b8a9fd2e",
+        "writer_drain_warnings": 0,
+        "launcher_verified_frame": false
+      },
+      {
+        "configuration": "wait_for_rtx_extended_attach",
+        "launcher_exit": 0,
+        "console_sha256": "f3856fd587a0daae2c244fed1442f20c5ab0f5bc636db748e2aadb4ea76172bc",
+        "writer_drain_warnings": 0,
+        "launcher_verified_frame": true,
+        "frame_sha256": "6061663db13f7a55bf876077ed86db3d487be08122fd8b9796a9fc01d526271e",
+        "capture_receipt_sha256": "3e7f61f346a0e32a80c1a9c7a06ac477b657c6bcf6d335b7ebc7105e1a027ef0",
+        "capture_completed_utc": "2026-11-24T18:01:48.933505+00:00",
+        "warehouse_mesh_count": 3473,
+        "width": 1280,
+        "height": 720,
+        "writer": "BasicWriter",
+        "sampled_distinct_rgb": 6056,
+        "frame_gate_sha256": "8d65723e4efe20fe2b3beaa37e7b5257f9b3daba091a44e0a31b4830722de443"
+      },
+      {
+        "configuration": "fresh_container_repeat",
+        "launcher_exit": 0,
+        "console_sha256": "589b07065dc4685358055cc5ef79bc7415c1d4c9c0eb87628b1cd4ea178eda7c",
+        "writer_drain_warnings": 0,
+        "launcher_verified_frame": true,
+        "frame_sha256": "f8d449efbe846a29a8446c638167eccda8e03773aeed09ff195066629ae82cbd",
+        "capture_receipt_sha256": "2bbed2976b7e8647af4696683ea18bec40cb50160778c44d254eb31cee9d156d",
+        "capture_completed_utc": "2026-11-24T18:10:49.447643+00:00",
+        "warehouse_mesh_count": 3473,
+        "width": 1280,
+        "height": 720,
+        "writer": "BasicWriter",
+        "sampled_distinct_rgb": 6035,
+        "frame_gate_sha256": "678a7b2c163dc53fe10208563a1b921211e2facf8ae1d444ec05f87163adebd9"
+      }
+    ]
+  },
+  "warehouse_timing_after_capture": {
+    "strict_200_status": "gated_after_zero_30_frame_gpu_timing",
+    "strict_30": {
+      "cohort": "strict",
+      "frames_requested": 30,
+      "loop_fps": 353.357,
+      "gpu_mean_ms": 0.0,
+      "gpu_samples": 29,
+      "positive_gpu_samples": 0,
+      "warehouse_mesh_count": 3473,
+      "launcher_exit": 0,
+      "vendor_exit": 0,
+      "staged_sha256": "9b537495ff2e2404503ad9be0fea2965d6edc64814082866dc0568c4670ed303",
+      "frame_sha256": "6061663db13f7a55bf876077ed86db3d487be08122fd8b9796a9fc01d526271e",
+      "vendor_metrics_sha256": "a99d96976b020fb0253c43600b5f8bdd65270bc9e84ca2a0beb0856b482f5088"
+    },
+    "rtx_ready_30": {
+      "cohort": "alternate",
+      "frames_requested": 30,
+      "loop_fps": 148.81,
+      "gpu_mean_ms": 2.93,
+      "gpu_samples": 29,
+      "positive_gpu_samples": 29,
+      "warehouse_mesh_count": 3473,
+      "launcher_exit": 0,
+      "vendor_exit": 0,
+      "staged_sha256": "629447447dcb8d53926f79c77dae00abd848d71a4f62bd8ea926015e621a2758",
+      "frame_sha256": "6061663db13f7a55bf876077ed86db3d487be08122fd8b9796a9fc01d526271e",
+      "vendor_metrics_sha256": "2e5f03a9a4e03718f69041d96eca53e57fc0befd272b917ebeeb4131d989818a"
+    },
+    "rtx_ready_200": {
+      "cohort": "alternate",
+      "frames_requested": 200,
+      "loop_fps": 122.399,
+      "gpu_mean_ms": 2.89,
+      "gpu_samples": 199,
+      "positive_gpu_samples": 199,
+      "warehouse_mesh_count": 3473,
+      "launcher_exit": 0,
+      "vendor_exit": 0,
+      "staged_sha256": "629447447dcb8d53926f79c77dae00abd848d71a4f62bd8ea926015e621a2758",
+      "frame_sha256": "6061663db13f7a55bf876077ed86db3d487be08122fd8b9796a9fc01d526271e",
+      "vendor_metrics_sha256": "9fa13a8ff9969a2cc4168bc86ce3f72070c1c74c319330e437beb27f9c77a0bc"
+    },
+    "rtx_ready_stage_script_sha256": "e1bfd1fa5741727b2ee3919b53bdb31eeb25eb2d36ede4f727ad446ebea95d53",
+    "launcher_30_sha256": "ce2283645b80e9950c4c70caacbd8a8d6b6d9907818b280aa0e151b25a06835d",
+    "launcher_200_sha256": "061f5fc56d56b0a41b9015359cd08d14fd8b2fcc3a938e4d346bd2f43aef04f5",
+    "historical_cohort_changed": false
+  }
+}
